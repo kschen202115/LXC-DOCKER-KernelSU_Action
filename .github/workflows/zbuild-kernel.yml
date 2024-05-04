@@ -167,7 +167,7 @@ jobs:
        
        if [ -f android-kernel/net/netfilter/xt_qtaguid.c ]; then
          wget https://raw.githubusercontent.com/wu17481748/android-lxc-docker/main/xt_qtaguid.patch
-         patch -p0 < lxc.patch
+         patch -p0 < xt_qtaguid.patch
        fi
        
        
